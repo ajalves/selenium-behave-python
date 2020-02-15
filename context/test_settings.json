@@ -1,0 +1,8 @@
+{
+  "url": "https://www.amazon.es/",
+  "browser": "chrome",
+  "driver_timeout": "5",
+  "username": "Automation",
+  "email": "ajalves.mlg@gmail.com",
+  "password": "123QWEasd"
+}
