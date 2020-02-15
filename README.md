@@ -21,6 +21,7 @@ Framework is built with 4 major folders context, features, steps and pages
 #### context
 
 Settings and driver instantiation.
+File `test_settings.json`, has test data needed during the execution (url, usernames, etc..)
 
 #### features
 
@@ -33,6 +34,7 @@ Where the files to implement the steps in the `.feature` files are located.
 #### pages
 
 Contains all page objects, as well as locators for finding elements on the webpages.
+Locators for finding web elements are configured in file `locators.py`
 
 
 ## Getting Started
