@@ -34,10 +34,8 @@ class LoginPage(Page):
         password_field.send_keys(password)
         signin_button.click()
 
-    @staticmethod
-    def verify_user_logged(username):
-        page = Page()
-        text = page.get_element_text(HomePageLocators.LOGIN_BUTTON)
+    def verify_user_logged(self, username):
+        text = super().get_element_text(HomePageLocators.LOGIN_BUTTON)
         assert text == "Hola " + username, "User is not logged in or user name is not correct"
 
     def login(self, email, password, username):

@@ -34,5 +34,4 @@ class Page:
         if not self.element_exists(locator):
             raise NoSuchElementException("Could not find {locator.selector}")
 
-        print(f'text is {self.driver.find_element(locator.l_type, locator.selector).text}')
         return self.driver.find_element(locator.l_type, locator.selector).text

@@ -42,22 +42,9 @@ Clone the repo, navigate to your local repository and run
 `pip3 install -r requirements.txt`
 
 setup webdrivers:
-You must have chrome downloaded and installed, and will also need to get a version of chromedriver.
-Best to use package managers (brew, choco).
+You must have chrome downloaded and installed, in order to run the tests.
+The framework uses chromedriver-autoinstaller, to ensure that chromedriver is downloaded , installed and added to path.
 
-For Mac users, simply run:
-
-`brew cask install chromedriver`
-
-Windows;
-
-`choco install chromedriver`
-
-Ubuntu/Debian:
-
-`apt install chromium-chromedriver`
-
-Ensure that the chromedriver has been added to your path by your package manager.
 
 After Chromedriver is installed, you should be ready to run the tests, simply executing command behave on the terminal
 
